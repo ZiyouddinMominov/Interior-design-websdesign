@@ -1,0 +1,102 @@
+.hero__container {
+  background-image: url("../image/hero-background.png");
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 821px;
+  padding-top: 206px;
+  padding-left: 207px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 94px;
+}
+.hero__container--inside {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.hero__container__line--one {
+  width: 1px;
+  height: 261px;
+  background: #6b6c71;
+  position: relative;
+}
+.hero__container__line--two {
+  margin-top: 10px;
+  width: 292px;
+  height: 1px;
+  background: #6b6c71;
+  position: absolute;
+}
+.hero__container__content__paragraph {
+  color: #2c314b;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 7px;
+}
+.hero__container__content {
+  margin-top: 7px;
+}
+.hero__container__content__title {
+  color: #1b1a1a;
+  font-size: 50px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 15px;
+  max-width: 361px;
+}
+.hero__container__content__div {
+  margin-bottom: 21px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  p {
+    color: #121211;
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+  }
+  span {
+    color: #121211;
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+}
+.hero__container__content__link {
+  color: white;
+  font-size: 14px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+  background: #1c1b1b;
+  padding: 7px 17px 7px 17px;
+  transition: all 0.3s;
+}
+.hero__container__content__link:hover {
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+.hero__container__content__link:active {
+  transition: all 0.3s;
+  opacity: 0.5;
+}
+@media screen and (max-width: 1290px) {
+  .hero__container {
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .hero__container {
+    padding-left: 50px;
+  }
+  .hero__container__content__title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 25px;
+  }
+}

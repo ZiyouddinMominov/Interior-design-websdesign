@@ -1,0 +1,112 @@
+.center__container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.center-display {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.center__container__item--one {
+  h2 {
+    max-width: 215px;
+    color: #282828;
+    font-size: 30px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+    margin-bottom: 16px;
+  }
+  a {
+    color: #1b1a1a;
+    font-size: 13px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    border: 2px solid #1b1a1a;
+    max-width: 114px;
+    padding: 7px 17px 7px 17px;
+    margin-bottom: 17px;
+  }
+  display: flex;
+  flex-direction: column;
+  background: #e5e6e6;
+  border-radius: 3px;
+  padding-top: 50px;
+  padding-left: 31px;
+  padding-right: 48px;
+  padding-bottom: 19px;
+}
+.center__container__item--two {
+  h2 {
+    color: #282828;
+    font-size: 30px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 44px;
+    margin-left: 31px;
+  }
+  a {
+    color: #1b1a1a;
+    margin-left: 36px;
+    font-size: 13px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    border: 2px solid #1b1a1a;
+    max-width: 114px;
+    padding: 7px 17px 7px 17px;
+    margin-bottom: 17px;
+  }
+  background: #e5e6e6;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.center__container__item--three {
+  padding-top: 50px;
+  padding-left: 36px;
+  background: #e5e6e6;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    color: #282828;
+    font-size: 30px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    max-width: 215px;
+    margin-bottom: 15px;
+  }
+  a {
+    color: #1b1a1a;
+    font-size: 13px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    border: 2px solid #1b1a1a;
+    max-width: 114px;
+    padding: 7px 17px 7px 17px;
+    margin-bottom: 17px;
+  }
+}
+.stul {
+  margin-left: 96px;
+}
+.kreslo {
+  margin-bottom: 15px;
+  margin-top: 9px;
+  margin-left: 32px;
+  margin-right: 51px;
+}
+@media screen and (max-width: 1400px) {
+  .center__container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 780px) {
+  .center-display {
+    flex-direction: column;
+  }
+}
